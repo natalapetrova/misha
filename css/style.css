@@ -1,5 +1,6 @@
 .page-body {
     margin: 0;
+    min-width: 320;
 }
 
 .visually-hidden {
@@ -24,13 +25,13 @@
     
 }
 
-.main-navigation {
+.page-header__nav {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
 
-.main-navigation__toggle {
+.navigation__toggle {
     position: absolute;
     right: 31;
     top: 50%;
@@ -38,17 +39,24 @@
     border: 0;
     background-color: transparent;
     padding: 0;
-    width: 20;
-    height: 14;
+    width: 40;
+    height: 28;
     background-image: url(../img/icon-header/menu.svg);
-    background-size: contain;
-
+    background-size: 20 14;
+    background-position: right center;
 }
 
-.main-navigation__list {
+.navigation__list {
     list-style: none;
     display: none;
 }
+
+.main-top {
+background-image: url(//img/hero-desktop.jpg);
+
+}
+
+
 .features-list {
     list-style: none;
 }
